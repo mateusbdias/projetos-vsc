@@ -14,3 +14,17 @@ console.log(nome[0] + ' ' + sobrenome[0] + ' tem ' + idade[0] + ' anos e seu ín
 console.log(nome[1] + ' ' + sobrenome[1] + ' tem ' + idade[1] + ' anos e seu índice de massa corporal é de ' + imc1 + '.');
 console.log(nome[2] + ' ' + sobrenome[2] + ' tem ' + idade[2] + ' anos e seu índice de massa corporal é de ' + imc2 + '.');
 console.log(nome[3] + ' ' + sobrenome[3] + ' tem ' + idade[3] + ' anos e seu índice de massa corporal é de ' + imc3 + '.');
+
+let cliente0 = {
+    nome: "José",
+    sobrenome: "da Silva",
+    idade: 27,
+    peso: 83.5,
+    altura: 1.70,
+    temPlano: true,
+    tipoPlano: "Ouro"
+}
+
+let imcCliente0 = cliente0.peso/(cliente0.altura^2);
+
+console.log(cliente0.nome + ' ' + cliente0.sobrenome + ' tem ' + cliente0.idade + ' anos e seu índice de massa corporal é de ' + imcCliente0 + '.');

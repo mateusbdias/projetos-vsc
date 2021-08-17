@@ -2,5 +2,8 @@
 // Função - conjunto de instruções que executa uma tarefa ou cálculo
 
 function cumprimentar(){
-    console.log("Olá, seja bem vindo!")
+    console.log("Olá, seja bem vindo!");
 }
+
+// Chamar uma função
+cumprimentar();

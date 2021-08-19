@@ -21,15 +21,15 @@ function quadradoDoNumero(x){
 }
 
 function mediaDeTresNumeros(a, b, c){
-    return adicionar(adicionar(a, b), c) / 3;
+    return dividir(adicionar(adicionar(a, b), c), 3);
 }
 
 function calculaPorcentagem(tot, pct){
-    return (pct / 100) * tot;
+    return multiplicar(dividir(pct, 100), tot);
 }
 
 function geradorDePorcentagem(a, b){
-    return ((a / b) * 100) + "%";
+    return (multiplicar(dividir(a, b), 100)) + "%";
 }
 
 console.log("===== Calculadora =====");

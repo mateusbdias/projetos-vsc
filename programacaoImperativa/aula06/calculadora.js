@@ -32,7 +32,7 @@ function calculaPorcentagem(tot, pct){
 
 function geradorDePorcentagem(a, b){
     let frac = dividir(a, b);
-    return (multiplicar(frac, 100)) + "%";
+    return multiplicar(frac, 100) + "%";
 }
 
 console.log("===== Calculadora =====");

@@ -21,15 +21,18 @@ function quadradoDoNumero(x){
 }
 
 function mediaDeTresNumeros(a, b, c){
-    return dividir(adicionar(adicionar(a, b), c), 3);
+    let soma = adicionar(adicionar(a, b), c);
+    return dividir(soma, 3);
 }
 
 function calculaPorcentagem(tot, pct){
-    return multiplicar(dividir(pct, 100), tot);
+    let frac = dividir(pct, 100);
+    return multiplicar(frac, tot);
 }
 
 function geradorDePorcentagem(a, b){
-    return (multiplicar(dividir(a, b), 100)) + "%";
+    let frac = dividir(a, b);
+    return (multiplicar(frac, 100)) + "%";
 }
 
 console.log("===== Calculadora =====");

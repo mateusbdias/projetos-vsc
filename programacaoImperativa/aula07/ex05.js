@@ -5,6 +5,10 @@ var n2 = 10;
 
 if(n1 > n2){
     console.log("True");
-} else {
+} else
     console.log("False");
-}
+
+if(n1 >= n2){
+    console.log("True");
+} else
+    console.log("False");

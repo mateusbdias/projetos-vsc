@@ -1,4 +1,4 @@
-// Aula 09 - 26.08.2021
+// Aula 09 - 26.08.2021 - Checkpoint I
 // Grupo 8 - Alexandre Pedro, Anna Lopes, Caroline Silva, Mateus Benites Dias
 // Micro-ondas
 

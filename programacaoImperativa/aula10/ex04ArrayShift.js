@@ -1,5 +1,5 @@
 // Aula 10 - 30.08.2021
-// Exercício 03 - Array
+// Exercício 04 - Array
 // Shift - método que elimina o primeiro elemento
 let cores = ["Azul", "Branco", "Vermelho", "Verde", "Violeta", "Amarelo"];
 console.log("Array antes do Shift:");

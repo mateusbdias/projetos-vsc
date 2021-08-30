@@ -4,3 +4,4 @@
 let cores = ["Azul", "Branco", "Vermelho", "Verde"];
 console.log(cores.join()); // Separador não informado - utiliza vírgulas, sem espaços
 console.log(cores.join(" - "));
+console.log(cores.join(" * "));

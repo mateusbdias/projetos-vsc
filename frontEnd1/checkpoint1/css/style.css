@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Tangerine&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/luz.jpg");
+    background-size: cover;
+}
+
+header{
+    font-family: 'Tangerine', cursive;
+    font-size: 30px;
+    background-color: rgba(94, 34, 21, 0.733);
+    color: white;
+    text-align: center;
+    padding: 15px 0px 15px;
+}
+
+main{
+    font-family: 'Lato', sans-serif;
+}
+
+.intro{
+    background-color: rgba(94, 34, 21, 0.65);
+    color: white;
+    margin: 130px 50% 15px 20px;
+    padding: 10px 0px;
+}
+
+.dados{
+    background-color: rgba(94, 34, 21, 0.65);
+    color: white;
+    margin: 15px 50% 15px 20px;
+    padding: 10px 0px;
+}
+
+.pontos{
+    background-color: rgba(94, 34, 21, 0.65);
+    color: white;
+    margin: 15px 250px 15px 20px;
+    padding: 10px 0px;
+}
+
+.esportes{
+    background-color: rgba(94, 34, 21, 0.65);
+    color: white;
+    margin: 15px 250px 15px 20px;
+    padding: 10px 0px;
+}

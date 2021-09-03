@@ -7,15 +7,17 @@
 }
 
 body{
+    width: 100%;
+    height: 100%;
     background-image: url("../img/luz.jpg");
     background-size: cover;
+    color: white;
 }
 
 header{
     font-family: 'Tangerine', cursive;
     font-size: 30px;
     background-color: rgba(94, 34, 21, 0.733);
-    color: white;
     text-align: center;
     padding: 15px 0px 15px;
 }
@@ -24,30 +26,45 @@ main{
     font-family: 'Lato', sans-serif;
 }
 
-.intro{
+.texto{
     background-color: rgba(94, 34, 21, 0.65);
-    color: white;
-    margin: 130px 50% 15px 20px;
     padding: 10px 0px;
 }
 
-.dados{
-    background-color: rgba(94, 34, 21, 0.65);
-    color: white;
+.video{
+    margin-left: 20px;
+}
+
+#titulo-intro{
+    margin: 80px 50% 15px 20px;
+    text-align: center;
+}
+
+#intro{
     margin: 15px 50% 15px 20px;
-    padding: 10px 0px;
 }
 
-.pontos{
-    background-color: rgba(94, 34, 21, 0.65);
-    color: white;
-    margin: 15px 250px 15px 20px;
-    padding: 10px 0px;
+#titulo-curiosidades{
+    width: 1280px;
+    margin: 15px 0px 15px 20px;
+    text-align: center;
 }
 
-.esportes{
-    background-color: rgba(94, 34, 21, 0.65);
-    color: white;
-    margin: 15px 250px 15px 20px;
-    padding: 10px 0px;
+#curiosidades{
+    width: 1280px;
+    margin: 15px 0px 15px 20px;
+}
+
+.botao{
+    position: fixed;
+}
+
+#youtube{
+    bottom: 80px;
+    right: 25px;
+}
+
+#instagram{
+    bottom: 15px;
+    right: 30px;
 }

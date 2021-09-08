@@ -16,6 +16,10 @@ main{
     text-align: center;
 }
 
+.container{
+    padding: 0px 35%;
+}
+
 main img{
     width: 200px;
 }
@@ -31,4 +35,13 @@ input, textarea{
 
 select{
     margin: 0px auto 15px;
+}
+
+.metodoPagamento label, .opcionais label{
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+}
+
+button{
+    margin: 2% 0px;
 }

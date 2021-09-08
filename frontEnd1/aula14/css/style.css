@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgba(92, 128, 128, 0.993);
+    padding: 10px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: teal;
+}
+
+main{
+    text-align: center;
+}
+
+.container{
+    padding: 0px 35%;
+}
+
+label, option, select{
+    display: block;
+}
+
+select{
+    margin: 0px auto 15px;
+}
+
+.metodoPagamento label{
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+}
+
+button{
+    margin: 2% 0px;
+}

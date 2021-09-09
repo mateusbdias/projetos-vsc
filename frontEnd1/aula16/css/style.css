@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Tangerine&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section:nth-child(2){
+    background-color: coral;
+}
+
+img:hover{
+    filter: drop-shadow(0 0 10px gray);
+}
+
+p::first-letter{
+    font-family: 'Tangerine', cursive;
+    font-size: 100px;
+}
+
+p::first-line{
+    font-style: italic;
+}
+
+label::before{
+    content: "*"
+}
+
+label::after{
+    content: ">"
+}
+
+input:required{
+    background-color: gold;
+}
+
+input:focus{
+    background-color: cadetblue;
+}
+
+input:disabled{
+    background-color: firebrick;
+}
+
+input:checked{
+    height: 50px;
+    width: 50px;
+}
+
+button:enabled{
+    width: 100px;
+}

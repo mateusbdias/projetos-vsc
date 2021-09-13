@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bola{
+    margin: 10% 10%;
+    display: inline;
+    animation: moveBola 3s;
+}
+
+@keyframes moveBola {
+    from { opacity: 0% }
+    to { opacity: 100%; transform: translateX(100px) }
+}
+
+#logo{
+    margin: 10% 10%;
+    display: inline;
+    animation: animarLogo 3s;
+}
+
+@keyframes animarLogo {
+    from { transform: translateX(200px) translateY(100px) rotate(1080deg) }
+}
+
+.button{
+    margin: 20% 20%;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    color: black;
+    display: inline;
+    transition:
+        background-color, 0.5s,
+        color, 0.5s;
+}
+
+.button:hover{
+    background-color: blue;
+    color: goldenrod;
+}

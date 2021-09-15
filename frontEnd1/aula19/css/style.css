@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#listaFilmes{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0 15px;
+}
+
+.filme{
+    width: 300px;
+    margin: 15px 0;
+}
+
+.filme img{
+    width: 100%;
+}

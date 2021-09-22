@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 20px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    background-color: teal;
+    color: white;
+    padding: 0.75rem;
+}
+
+header h1{
+    font-size: 1.2rem;
+    font-weight: bold;
+    align-self: left;
+}
+
+header ul{
+    display: flex;
+    gap: 5px;
+    align-self: right;
+}
+
+header ul li{
+    list-style-type: none;
+    align-items: center;
+}
+
+header li a{
+    text-decoration: none;
+    color: white;
+    padding: 0.4rem;
+}
+
+#banner{
+    background-image: url(https://img1.goodfon.com/wallpaper/nbig/3/ff/green-field-landscape-great.jpg);
+    background-size: cover;
+    height: calc(100vh - 59px);
+    width: 100vw;
+}
+
+h2{
+    padding-bottom: 0.5rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    margin: 1rem;
+}
+
+.card{
+    background-color: rgba(245, 130, 30, 0.568);
+    text-align: justify;
+    padding: 10px;
+    border-radius: 0.5rem;
+}
+
+@media(max-width: 750px){
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media(max-width: 561px){
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    header ul{
+        margin-top: 0.3rem;
+    }
+}
+
+@media(max-width: 397px){
+    header ul{
+        font-size: 0.85rem;
+        margin-top: 0.25rem;
+    }
+    .grid{
+        font-size: 0.85rem;
+    }
+}
+
+@media(max-width: 350px){
+    header ul{
+        font-size: 0.75rem;
+        margin-top: 0.2rem;
+    }
+    .grid{
+        font-size: 0.75rem;
+    }
+}

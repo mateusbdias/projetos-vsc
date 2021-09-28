@@ -17,11 +17,13 @@ console.log("Valor total arrecadado: R$ " + valorTotalEntradas(3, 2).toFixed(2))
 
 // 3) Escreva um programa que ajuda os alunos a calcularem as notas desta disciplina.
 // Na rotina deve-se incluir as notas do 1º ao 4º Bimestre. Calcular a média aritmética entre elas, e exibir na tela.
-function mediaDisciplina(nota1, nota2, nota3, nota4) {
-    return (nota1 + nota2 + nota3 + nota4) / 4;
-}
+let mediaDisciplina = (notas) => (notas.reduce(
+    function(acumulador, nota){
+        return acumulador + nota;
+    }
+)) / 4;
 
-console.log("Média final: " + mediaDisciplina(8, 7, 5, 10).toFixed(2));
+console.log("Média final: " + mediaDisciplina([8, 7, 5, 10]).toFixed(2));
 
 // 4) Escreva um programa que o programador inclua o nome de 3 alimentos e então exiba o nome dos 3 separados por virgulas. Ex: maçã, pera, arroz.
 function exibirAlimentos(array) {
@@ -84,6 +86,7 @@ console.log(verificarNumero(47));
 
 // 9) Escreva um programa que exibe qualquer tabuada completa. O programa deve perguntar ao usuário qual tabuada ele deseja visualizar, que irá responder digitando um número de 1 a 10.
 function tabuadaCompleta(numero) {
+    console.log("Tabuada do " + numero + ":");
     for (y = 1; y <= 10; y++) {
         console.log(numero + " x " + y + " = " + (numero * y));
     }

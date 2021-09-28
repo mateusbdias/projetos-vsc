@@ -87,8 +87,8 @@ console.log(verificarNumero(47));
 // 9) Escreva um programa que exibe qualquer tabuada completa. O programa deve perguntar ao usuário qual tabuada ele deseja visualizar, que irá responder digitando um número de 1 a 10.
 function tabuadaCompleta(numero) {
     console.log("Tabuada do " + numero + ":");
-    for (y = 1; y <= 10; y++) {
-        console.log(numero + " x " + y + " = " + (numero * y));
+    for (i = 1; i <= 10; i++) {
+        console.log(i + " x " + numero + " = " + (numero * i));
     }
 }
 

@@ -73,7 +73,7 @@ console.log(parOuImpar(7));
 
 // 8) Escreva um programa que solicita um número inteiro. Exiba uma mensagem de erro se o número informado estiver entre 15 e 25 ou entre 45 e 50.
 function verificarNumero(numero) {
-    if ((numero >= 15 && numero <= 25) || (numero >= 45 && numero <= 50)) {
+    if (numero >= 15 && numero <= 25 || numero >= 45 && numero <= 50) {
         return "ERRO!"
     } else {
         return "Autorizado!"

@@ -1,5 +1,5 @@
 // Aula 04 - 22.10.2021
-// Document Object Model
+// Document Object Model - querySelector() e querySelectorAll()
 // Mesa 7 - Caroline M. da Silva, Débora Beatriz Figueiró, Denny Ribeiro, Mateus Benites Dias, Renan de Andrade, Wallace Souza, Wesley Bueno
 
 let primeiroTitulo = document.querySelector('h1');

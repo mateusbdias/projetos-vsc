@@ -9,15 +9,57 @@
 </head>
 <body>
     <main>
-        <h1>Checkpoint 1</h1>
+        <h1>Pokédex</h1>
         <fieldset>
             <form>
-                <label for="titulo">Título:</label>
+                <label for="titulo" id="titulo">Nome:</label>
                 <input type="text" name="titulo" id="titulo">
-                <label for="desc">Descrição:</label>
+                <label for="desc" id="desc">Descrição:</label>
                 <input type="text" name="desc" id="desc">
-                <label for="url">URL da Imagem:</label>
+                <label for="url" id="url">URL da Imagem:</label>
                 <input type="text" name="url" id="url">
+                <label for="regiao">Região:</label>
+                <div class="regiao">
+                    <div id="kanto">
+                        <input type="radio" name="regiao" id="regiao" value="kanto">
+                        <label for="kanto" id="regiao">Kanto</label>
+                    </div>
+                    <div id="johto">
+                        <input type="radio" name="regiao" id="regiao" value="johto">
+                        <label for="kanto" id="regiao">Johto</label>
+                    </div>
+                    <div id="hoenn">
+                        <input type="radio" name="regiao" id="regiao" value="Hoenn">
+                        <label for="kanto" id="regiao">Hoenn</label>
+                    </div>
+                    <div id="sinnoh">
+                        <input type="radio" name="regiao" id="regiao" value="Sinnoh">
+                        <label for="kanto" id="regiao">Sinnoh</label>
+                    </div>
+                </div>
+                <div class="regiao">
+                    <div id="unova">
+                        <input type="radio" name="regiao" id="regiao" value="unova">
+                        <label for="kanto" id="regiao">Unova</label>
+                    </div>
+                    <div id="kalos">
+                        <input type="radio" name="regiao" id="regiao" value="kalos">
+                        <label for="kanto" id="regiao">Kalos</label>
+                    </div>
+                    <div id="alola">
+                        <input type="radio" name="regiao" id="regiao" value="alola">
+                        <label for="kanto" id="regiao">Alola</label>
+                    </div>
+                    <div id="galar">
+                        <input type="radio" name="regiao" id="regiao" value="galar">
+                        <label for="kanto" id="regiao">Galar</label>
+                    </div>
+                </div>
+                <label for="capturado" id="capturado">Status:</label>
+                <div class="capturado">
+                    <input type="checkbox" name="capturado" id="capturado">
+                    <label for="capturado" id="capturado">Capturado</label>
+                </div>
                 <input type="submit" value="Enviar" class="button">
             </form>
         </fieldset>

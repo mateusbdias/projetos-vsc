@@ -18,7 +18,8 @@ h1{
 }
 
 fieldset{
-    margin: 20px 200px 50px 200px;
+    width: 400px;
+    margin: 20px auto 50px auto;
     border: gainsboro solid 1px;
     border-radius: 30px;
     display: flex;
@@ -26,7 +27,7 @@ fieldset{
     flex-direction: column;
 }
 
-label, input{
+#titulo, #desc, #url, #capturado, label[for="regiao"]{
     display: block;
     margin: 10px auto 10px auto;
 }
@@ -34,6 +35,34 @@ label, input{
 input[type="text"]{
     border-radius: 5px;
     height: 20px;
+}
+
+div.regiao{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+#kanto, #johto, #hoenn, #sinnoh, #unova, #kalos, #alola, #galar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+    gap: 5px;
+}
+
+div.capturado{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#capturado{
+    margin: 5px;
 }
 
 .button{
@@ -46,7 +75,7 @@ input[type="text"]{
     align-self: center;
 }
 
-div{
+div.card{
     margin: 20px auto 20px auto;
     border: gainsboro solid 1px;
     border-radius: 30px;

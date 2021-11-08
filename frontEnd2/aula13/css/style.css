@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+fieldset{
+    background-color: powderblue;
+    width: 400px;
+    margin: 20px auto 50px auto;
+    border: teal solid 2px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input, label{
+    display: block;
+    margin: 10px auto 10px auto;
+}
+
+.input{
+    border: teal solid 2px;
+    border-radius: 5px;
+    height: 20px;
+}
+
+#nome{
+    margin: 10px auto 20px auto;
+}
+
+div.hobbies{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+#corte-costura, #cozinha, #guitarra, #leitura, #netflix, #video-game{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+    gap: 5px;
+}
+
+.button{
+    margin: 20px auto 10px auto;
+    background-color: cadetblue;
+    color: snow;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 12px;
+    border: teal solid 1px;
+    align-self: center;
+}
+
+.disabled{
+    border: red solid 2px;
+}
+
+.disabled-check{
+    border: red solid 1px;
+}
+
+.disabled-btn{
+    border: gray solid 2px;
+    background-color: lightgray;
+    color: black;
+}

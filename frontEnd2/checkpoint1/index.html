@@ -15,47 +15,47 @@
                 <label for="nome" id="nome">Nome:</label>
                 <input type="text" name="nome" id="nome">
                 <label for="desc" id="desc">Descrição:</label>
-                <input type="text" name="desc" id="desc">
+                <textarea name="desc" id="desc" cols="40" rows="10"></textarea>
                 <label for="url" id="url">URL da Imagem:</label>
                 <input type="text" name="url" id="url">
                 <label for="regiao">Região:</label>
                 <div class="regiao">
                     <div id="kanto">
-                        <input type="radio" name="regiao" id="regiao" value="kanto">
+                        <input type="radio" name="regiao" id="kanto" value="Kanto">
                         <label for="kanto" id="regiao">Kanto</label>
                     </div>
                     <div id="johto">
-                        <input type="radio" name="regiao" id="regiao" value="johto">
+                        <input type="radio" name="regiao" id="johto" value="Johto">
                         <label for="kanto" id="regiao">Johto</label>
                     </div>
                     <div id="hoenn">
-                        <input type="radio" name="regiao" id="regiao" value="Hoenn">
+                        <input type="radio" name="regiao" id="hoenn" value="Hoenn">
                         <label for="kanto" id="regiao">Hoenn</label>
                     </div>
                     <div id="sinnoh">
-                        <input type="radio" name="regiao" id="regiao" value="Sinnoh">
+                        <input type="radio" name="regiao" id="sinnoh" value="Sinnoh">
                         <label for="kanto" id="regiao">Sinnoh</label>
                     </div>
                 </div>
                 <div class="regiao">
                     <div id="unova">
-                        <input type="radio" name="regiao" id="regiao" value="unova">
+                        <input type="radio" name="regiao" id="unova" value="Unova">
                         <label for="kanto" id="regiao">Unova</label>
                     </div>
                     <div id="kalos">
-                        <input type="radio" name="regiao" id="regiao" value="kalos">
+                        <input type="radio" name="regiao" id="kalos" value="Kalos">
                         <label for="kanto" id="regiao">Kalos</label>
                     </div>
                     <div id="alola">
-                        <input type="radio" name="regiao" id="regiao" value="alola">
+                        <input type="radio" name="regiao" id="alola" value="Alola">
                         <label for="kanto" id="regiao">Alola</label>
                     </div>
                     <div id="galar">
-                        <input type="radio" name="regiao" id="regiao" value="galar">
+                        <input type="radio" name="regiao" id="galar" value="Galar">
                         <label for="kanto" id="regiao">Galar</label>
                     </div>
                 </div>
-                <label for="capturado" id="capturado">Status:</label>
+                <label id="capturado">Status:</label>
                 <div class="capturado">
                     <input type="checkbox" name="capturado" id="capturado">
                     <label for="capturado" id="capturado">Capturado</label>
@@ -63,6 +63,9 @@
                 <input type="submit" value="Enviar" class="button" id="btn">
             </form>
         </fieldset>
+        <div class="container">
+
+        </div>
     </main>
 
     <script src="./js/script.js"></script>

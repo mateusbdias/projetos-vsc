@@ -37,6 +37,10 @@ input[type="text"]{
     height: 20px;
 }
 
+textarea{
+    border-radius: 5px;
+}
+
 div.regiao{
     display: flex;
     align-items: center;

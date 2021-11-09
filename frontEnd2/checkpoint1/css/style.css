@@ -27,7 +27,7 @@ fieldset{
     flex-direction: column;
 }
 
-#titulo, #desc, #url, #capturado, label[for="regiao"]{
+#nome, #desc, #url, #capturado, label[for="regiao"]{
     display: block;
     margin: 10px auto 10px auto;
 }

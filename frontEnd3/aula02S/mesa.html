@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02 - Mesa de Trabalho</title>
+</head>
+<body>
+    
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+
+        function Lista({item}){
+            return(
+                <>
+                    <li>{item || "Item não encontrado"}</li>
+                </>
+            )
+        }
+
+        const frutasEstoque = ["Maçã", "Pêra", "Laranja", "Banana"];
+        const frutasFalta = ["Pêssego", "Cereja", "Kiwi"];
+   
+        var container = 
+            <>
+                <h1>Lista de Produtos em estoque:</h1>
+                <ul>
+                    {
+                        frutasEstoque.map((item, index) => {
+                            return <Lista key={index.toString()} item={item}/>
+                        })
+                    }
+                </ul>
+                <h2>Produtos em falta:</h2>
+                <ul>
+                    {
+                        frutasFalta.map((item, index) => {
+                            return <Lista key={index.toString()} item={item}/>
+                        })
+                    }
+                </ul>
+            </>;
+        
+        ReactDOM.render(container, document.querySelector("body"));
+    </script>
+</body>
+</html>

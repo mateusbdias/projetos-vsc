@@ -7,9 +7,9 @@ import $ from "jQuery";
 
 //keycloak init options
 let initOptions = {
-    url: 'http://localhost:8082/auth/', 
+    url: 'http://localhost:8082/', 
     realm: 'digitalhouse', 
-    clientId: 'michaeldouglas', 
+    clientId: 'aula08', 
     onLoad: 'login-required'
 }
 

@@ -1,7 +1,7 @@
 #versão da API do script
 apiVersion: v1
 #tipo da criação, neste caso um serviço
-kind: NodePort
+kind: Service
 #informações referentes ao serviço
 metadata:
 #nome do serviço
@@ -9,7 +9,7 @@ metadata:
 #especificações do serviço
 spec:
 #tipo do serviço um ClusterIP, vai estabelecer um IP para comunição
-  type: ClusterIP
+  type: NodePort
 #seletor para fazer refencia a qual serviço ele será vinculado.
   selector:
 # pela label escolhemos o segundo pod
@@ -17,6 +17,6 @@ spec:
 #redirecionamento de portas
   ports:
 #o serviço irá ficar escutando na porta 6000
-    - nodePort: 30000
+    - port: 30000
 # e enviará para o container na porta 80
       targetPort: 80

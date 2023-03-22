@@ -17,6 +17,7 @@ spec:
 #redirecionamento de portas
   ports:
 #o serviço irá ficar escutando na porta 6000
-    - port: 30000
+    - port: 8008
 # e enviará para o container na porta 80
       targetPort: 80
+      nodePort: 30000

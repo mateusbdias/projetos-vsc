@@ -8,15 +8,9 @@ metadata:
   name: svc-pod-2
 #especificações do serviço
 spec:
-#tipo do serviço um ClusterIP, vai estabelecer um IP para comunição
   type: ClusterIP
-#seletor para fazer refencia a qual serviço ele será vinculado.
   selector:
-# pela label escolhemos o segundo pod
     app: segundo-pod
-#redirecionamento de portas
   ports:
-#o serviço irá ficar escutando na porta 6000
-    - port: 6000
-# e enviará para o container na porta 80
+    - port: 8087
       targetPort: 80

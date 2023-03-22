@@ -1,20 +1,12 @@
-#versão da API do script
 apiVersion: v1
-#tipo da criação, no caso Pod
 kind: Pod
-# informações sobre o que vai ser criado:
 metadata:
-  #nome do recurso que vai ser criado, no caso o recurso é um pod pode ser qualquer nome
   name: pod-declarativo1
   labels:
     app: primeiro-pod
-#especificações sobre o container a ser criado.
 spec:
   containers:
-    #nome do container, pode ser colocado qualquer nome, mas lembre-se das boas práticas
     - name: nginx-container1
-      #imagem a ser utilizada será puxada do dockerhub
       image: nginx:latest
-      #porta que será utilizada no nosso container.
       ports:
         - containerPort: 80

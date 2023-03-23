@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deployment-pod-declarativo
+spec:
+  template:
+    metadata:
+      name: pod-declarativo
+      labels:
+        app: label-pod-declarativo
+    spec:
+      containers:
+      - name: container-pod-declarativo
+        image: nginx:latest
+        ports:
+        - containerPort: 80
+  replicas: 0
+  selector:
+    matchLabels: 
+      app: label-pod-declarativo
